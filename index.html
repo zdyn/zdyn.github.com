@@ -1,93 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
+<html>
+	<head>
+		<title>Jing Brian Zhou</title>
 
-<html lang="en">
+		<!-- Open Sans, a Google Web Font -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css">
+		<link type="text/css" rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div id="content">
+			<div id="personal-information">
+				<div id="name">Jing Brian Zhou</div>
+				<div id="contact-details">
+					<div id="email"><a href="mailto:bzthemusician@gmail.com">bzthemusician@gmail.com</a></div>
+					<div id="phone">832.606.0508</div>
+				</div>
+			</div>
 
-<head>
-	<title>Jing Brian Zhou</title>
-	
-	<!-- Droid Sans, a Google Web Font -->
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-	
-	<link type="text/css" rel="stylesheet" href="index.css" />
-</head>
+			<div id="work-experience" class="panel">
+				<div class="title">Work Experience</div>
+				<div class="sub-panel">
+					<div class="info">Ooyala<br>January 2012 - Present<br><span class="em">Software Engineer</span></div>
+					<ul>
+						<li>Worked on Ooyala's Flash, HTML5, and Android SDK video players, including ad integration, back-end authorization, performance improvements.</li>
+						<li>Built analytics data visualizations using n-dimensional filtering.</li>
+						<li>Built a server-side content stitcher to insert content into VODs and live streams for HLS (http live streaming) to create monetization opportunities across all devices.</li>
+					</ul>
+				</div>
+				<div class="sub-panel">
+					<div class="info">AgilityDocs<br>October 2010 - September 2011<br><span class="em">Systems Engineer</span></div>
+					<ul>
+						<li>Created Databook Creator - a web application built on ASP.NET that integrates with document management systems to automatically compile databooks using a rules engine.</li>
+						<li>Requirements for Databook Creator included implementing a common interface to accommodate a variety of existing document management systems (e.g. OnBase, FileBound) as well as homegrown solutions.</li>
+						<li>The time spent compiling databooks using Databook Creator was on the order of seconds compared to existing manual processes that took days.</li>
+						<li>Sole developer, full stack, responsibilities included designing the database schema, creating a rules engine, front- and back-end business logic, designing the UI/UX.</li>
+						<li>Engaged in business agreements with several high-profile oil and gas companies to purchase licenses generating revenues in the six-figure range.</li>
+					</ul>
+				</div>
+				<div class="sub-panel">
+					<div class="info">VivaSmiles Advanced Dentistry<br>May - September 2009<br><span class="em">Operations Intern</span></div>
+					<ul>
+						<li>Built a patient management web application using Django to facilitate a transition from paper to electronic data storage.</li>
+						<li>Features included patient tracking, treatment tracking, automatic financial calculations, and data collection/analysis to determine the cost-effectiveness of various advertising methods.</li>
+					</ul>
+				</div>
+			</div>
 
-<body>
-	<div id="background"></div>
-	
-	<div id="personal_information">
-		<h1>Jing Brian Zhou</h1>
-		<p>
-			<a href="mailto:bzthemusician@gmail.com">bzthemusician@gmail.com</a><br />
-			(832) 606-0508
-		</p>
-	</div>
-	
-	<div id="work_experience">
-		<h2>Work Experience</h2>
-		<section class="job">
-			<header>
-				<strong>October 2010 - September 2011<br />
-				AgilityDocs</strong><br />
-				<em>Systems Engineer</em>
-			</header>
-			<ul>
-				<li>Implemented in ASP.NET a web application (<a href="http://www.agilitydocs.com/manufacturing-data-book-creation.html">Databook Creator</a>) that interfaced with document management systems and automatically compiled databooks</li>
-				<li>Designed application to be flexible to accommodate popular document management systems (e.g. OnBase, FileBound) as well as home-grown solutions</li>
-				<li>Application improved efficiency of compiling databooks by 70-90%</li>
-				<li>Sole developer, built application front-to-end including designing database schema, writing backend logic, designing UI</li>
-				<li>Agreements with clients to purchase licenses would generate revenue exceeding $300,000</li>
-			</ul>
-		</section>
-		<section class="job">
-			<header>
-				<strong>May - September 2009<br />
-				VivaSmiles Advanced Dentistry</strong><br />
-				<em>Operations Intern</em>
-			</header>
-			<ul>
-				<li>Implemented using the Django framework a web application designed to track patient information, treatments, and automate financial calculations</li>
-				<li>Facilitated a transition from paper to electronic data storage</li>
-				<li>Determined cost-effectiveness of advertisements using aforementioned application to analyze caller demographics and treatments chosen</li>
-			</ul>
-		</section>
-	</div>
-	
-	<div id="education">
-		<h2>Education</h2>
-		<section class="degree">
-			<header>
-				<strong>Washington University in St. Louis<br />
-				B.S. Business Administration, 2010</strong>
-			</header>
-			<ul>
-				<li>Majors: Operations &amp; Supply Chain Management; Economics &amp; Strategy</li>
-				<li>Minors: Computer Science; Psychology</li>
-			</ul>
-		</section>
-	</div>
-	
-	<div id="technical_skills">
-		<h2>Technical Skills</h2>
-		<ul>
-			<li>Languages: JavaScript; PHP; C#; Python</li>
-			<li>Libraries: jQuery</li>
-			<li>Databases: SQL; MS SQL Server; MySQL</li>
-			<li>Web Technologies: HTML; CSS; AJAX</li>
-		</ul>
-	</div>
-	
-	<div id="personal_projects">
-		<h2>Personal Projects</h2>
-		<section class="project">
-			<header>
-				<a href="https://github.com/zdyn">GitHub Portfolio</a>
-			</header>
-			<ul>
-				<li>coverflow.js: A jQuery coverflow plugin that mimics the iTunes coverflow for webkit browsers</li>
-				<li>wulol admin: A web application for Washington University Locks of Love to create events and record signups</li>
-			</ul>
-		</section>
-	</div>
-</body>
+			<div id="education" class="panel">
+				<div class="title">Education</div>
+				<div class="sub-panel">
+					<div class="info">Washington University in St. Louis<br>B.S. Business Administration, 2010</div>
+					<ul>
+						<li>Major: Operations &amp; Supply Chain Management; Economics &amp; Strategy</li>
+						<li>Minor: Computer Science; Psychology</li>
+					</ul>
+				</div>
+			</div>
 
+			<div id="technical-skills" class="panel">
+				<div class="title">Technical Skills</div>
+				<ul>
+					<li>Languages: Ruby, JavaScript, CoffeeScript, Java, C#, Python, Go, HTML5, CSS, ActionScript</li>
+					<li>Libraries: jQuery, Underscore.js, D3.js</li>
+					<li>Databases: MySQL, Redis</li>
+					<li>Frameworks: Sinatra, Android SDK</li>
+				</ul>
+			</div>
+
+			<div id="projects" class="panel">
+				<div class="title">Projects</div>
+				<div class="sub-panel">
+					<div class="info"><a href="https://github.com/zdyn">GitHub Profile</a><br>Selected Repos</div>
+					<ul class="repos">
+						<li><a href="https://github.com/ooyala/barkeep">Barkeep</a> Git-based code review tool developed at Ooyala</li>
+						<li><a href="https://github.com/zdyn/cooldown.js">Cooldown.js</a> jQuery-based plugin that displays a circular countdown timer</li>
+						<li><a href="https://github.com/zdyn/coverflow">Coverflow.js</a> jQuery-based coverflow plugin that mimics the iTunes coverflow</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="miscellaneous" class="panel">
+				<div class="title">Miscellaneous</div>
+				<div class="sub-panel">
+					<div>My interests also include, but are not limited to: ping pong, rock climbing, strength training, ultimate frisbee, and StarCraft II.
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
