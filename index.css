@@ -3,9 +3,11 @@ html {
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	font: normal normal 14px/24px "Open Sans";
-	color: #333;
-	background: #f7f7f7;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: Oxygen;
+	color: #000;
+	background: #eee;
 }
 body {
 	margin: 0 auto;
@@ -23,45 +25,62 @@ a {
 	color: blue;
 	text-decoration: none;
 }
-a:visited {
-	color: purple;
-}
-a:hover {
-	color: #6666ff;
-}
-
-#content {
-	width: 800px;
-	padding: 15px 30px 25px 30px;
-	background: #fff;
-	box-shadow: 0 1px 5px #ccc;
-}
-#name {
-	font-weight: 600;
-	font-size: 24px;
-	line-height: 40px;
-}
-#projects .repos a {
-	display: inline-block;
-	width: 90px;
+a:visited { color: purple; }
+a:hover { color: #6666ff; }
+* {
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .panel {
-	margin-top: 15px;
+	margin-top: 20px;
+	padding-bottom: 10px;
 }
 .panel > .title {
-	padding-bottom: 4px;
 	font-size: 20px;
-	line-height: 30px;
-	border-bottom: 1px solid #ddd;
+	line-height: 35px;
+	border-bottom: 1px solid #eee;
 }
-.info {
-	font-weight: 600;
-}
-.sub-panel {
-	margin-top: 10px;
-}
+.info { font-weight: 700; }
+.sub-panel { margin-top: 10px; }
 .em {
 	font-style: italic;
 	font-weight: 400;
+}
+.clear { clear: both; }
+
+#content {
+	width: 800px;
+	padding: 20px 40px;
+	background: #fff;
+	box-shadow: 0 2px 1px #ccc;
+}
+
+#personal-information { height: 48px; }
+#personal-information .name {
+	float: left;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 48px;
+}
+#personal-information .contact {
+	float: right;
+	text-align: right;
+}
+#technical-skills .umbrellas {
+	padding-top: 10px;
+}
+#technical-skills .umbrella {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+#technical-skills .umbrella .name {
+	font-weight: 700;
+	line-height: 30px;
+}
+#projects .repos a {
+	display: inline-block;
+	width: 150px;
 }
